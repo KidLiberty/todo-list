@@ -1,4 +1,4 @@
-import { v4 } from 'uuid/dist/esm-browser'
+import { v4 } from '../node_modules/uuid/dist/esm-browser/index.js'
 
 const form = document.querySelector('#new-todo-form')
 const input = document.querySelector('#todo-input')
